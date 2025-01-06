@@ -29,13 +29,13 @@
     <script>
         // Check if user is logged in
         if (localStorage.getItem('isLoggedIn') !== 'true') {
-            window.location.href = '/src/login.html';
+            window.location.href = '/login.html';
         }
 
         // Add logout functionality
         document.getElementById('logout').addEventListener('click', function() {
             localStorage.removeItem('isLoggedIn');
-            window.location.href = '/src/login.html';
+            window.location.href = '/login.html';
         });
     </script>
 
