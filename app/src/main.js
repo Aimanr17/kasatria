@@ -97,11 +97,11 @@ async function init() {
         const netWorth = table[i + 8];
         let backgroundColor;
         if (netWorth < 100000) {
-            backgroundColor = 'rgba(180,0,0,0.85)'; // Darker, more saturated red
+            backgroundColor = 'rgba(255,30,30,1)'; // Very bright, solid red
         } else if (netWorth < 200000) {
-            backgroundColor = 'rgba(205,120,0,0.85)'; // Darker, more saturated orange
+            backgroundColor = 'rgba(255,165,0,1)'; // Pure, solid orange
         } else {
-            backgroundColor = 'rgba(0,128,128,0.85)'; // Teal/Tosca color
+            backgroundColor = 'rgba(50,205,50,1)'; // Bright lime green
         }
         element.style.backgroundColor = backgroundColor;
 
